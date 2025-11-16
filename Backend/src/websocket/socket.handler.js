@@ -1,7 +1,7 @@
-const sessionService = require('../../services/session.service');
-const sttService = require('../../services/stt.service');
-const translationService = require('../../services/translation.service');
-const ttsService = require('../../services/tts.service');
+const sessionService = require('../services/session.service');
+const sttService = require('../services/stt.service');
+const translationService = require('../services/translation.service');
+const ttsService = require('../services/tts.service');
 
 const buffers = new Map();
 const MAX_BUFFER_MS = 2000;
